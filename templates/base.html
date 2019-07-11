@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+    <head>
+    <style>
+    .title {
+        text-align:center;
+    }
+    .textbox {
+        height:100px;
+    }
+    .error{
+        color: red;
+        }
+    </style>
+    </head>
+<body>
+
+<button onclick="window.location.href='http://127.0.0.1:5000/blog';">Main Blog Pages</a></button>
+<button onclick="window.location.href='http://127.0.0.1:5000/newpost';">Add a Blog Entry</a></button>
+    
+{% block content %}
+
+{% endblock %}
+
+</body>
+</html>
